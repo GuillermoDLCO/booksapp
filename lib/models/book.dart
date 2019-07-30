@@ -11,7 +11,7 @@ BookList booklist = BookList(books: [
           "https://images.gr-assets.com/authors/1510435123p5/1077326.jpg",
       franchise: true,
       genre: "Fantasy",
-      lanugage: "ENGLISH",
+      language: "ENGLISH",
       rating: 4.5,
       price: 13.49,
       summary:
@@ -28,7 +28,7 @@ BookList booklist = BookList(books: [
           "https://www.biography.com/.image/t_share/MTQ4NDc2MTkxNTY3NzgzMTE1/george_rr_martin_photo_mark_davis_wireimage_via_getty_images_164117282_resized.jpg",
       franchise: true,
       genre: "Sci-Fi",
-      lanugage: "ENGLISH",
+      language: "ENGLISH",
       price: 27.34,
       rating: 4.4,
       summary:
@@ -46,7 +46,7 @@ BookList booklist = BookList(books: [
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJA6kQWR4l52ykTTtyFuUb6WEmXixGqzU4_QWIOLS0bfIGCUMW",
       franchise: true,
       genre: "Sci-Fi",
-      lanugage: "ENGLISH",
+      language: "ENGLISH",
       rating: 4.0,
       price: 11.49,
       summary:
@@ -63,7 +63,7 @@ BookList booklist = BookList(books: [
       authorImg: "https://images.gr-assets.com/authors/1362814142p5/3389.jpg",
       franchise: true,
       genre: "Crime Fiction",
-      lanugage: "ENGLISH",
+      language: "ENGLISH",
       price: 10.87,
       rating: 4.9,
       summary:
@@ -81,7 +81,7 @@ BookList booklist = BookList(books: [
           "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Mario_Puzo.jpg/220px-Mario_Puzo.jpg",
       franchise: true,
       genre: "Crime Fiction",
-      lanugage: "ENGLISH",
+      language: "ENGLISH",
       price: 13.60,
       rating: 4.8,
       summary:
@@ -99,7 +99,7 @@ BookList booklist = BookList(books: [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dan_Brown_November_2015.jpg/220px-Dan_Brown_November_2015.jpg",
       franchise: false,
       genre: "Mystery-Thriller",
-      lanugage: "ENGLISH",
+      language: "ENGLISH",
       price: 8.34,
       rating: 4.2,
       summary:
@@ -116,7 +116,7 @@ BookList booklist = BookList(books: [
           "https://images.gr-assets.com/authors/1510435123p5/1077326.jpg",
       franchise: false,
       genre: "Fantasy",
-      lanugage: "ENGLISH",
+      language: "ENGLISH",
       price: 23.71,
       rating: 3.5,
       summary:
@@ -133,7 +133,7 @@ BookList booklist = BookList(books: [
           "https://tpoth-assets.s3.amazonaws.com/uploads/contributor/14/contributor_img/paulo_coelho.jpg",
       franchise: false,
       genre: "Quest",
-      lanugage: "ENGLISH",
+      language: "ENGLISH",
       price: 13.69,
       rating: 4.5,
       summary:
@@ -150,7 +150,7 @@ BookList booklist = BookList(books: [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Arthur_Conan_Doyle_by_Walter_Benington%2C_1914.png/220px-Arthur_Conan_Doyle_by_Walter_Benington%2C_1914.png",
       franchise: false,
       genre: "Suspense",
-      lanugage: "ENGLISH",
+      language: "ENGLISH",
       price: 15.31,
       rating: 4.0,
       summary:
@@ -166,7 +166,7 @@ BookList booklist = BookList(books: [
           "https://images-na.ssl-images-amazon.com/images/I/6100CMqLo6L._UY200_.jpg",
       franchise: false,
       genre: "Self Analysis",
-      lanugage: "ENGLISH",
+      language: "ENGLISH",
       price: 18.94,
       rating: 3.5,
       summary:
@@ -182,7 +182,7 @@ BookList booklist = BookList(books: [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Devaki_Nandan_Khatri_Portrait.JPG/220px-Devaki_Nandan_Khatri_Portrait.JPG",
       franchise: false,
       genre: "Romantic Fantasy",
-      lanugage: "HINDI",
+      language: "HINDI",
       price: 11.99,
       rating: 4.0,
       summary:
@@ -205,7 +205,7 @@ class Book {
   String cover;
   String author;
   String genre;
-  String lanugage;
+  String language;
   String authorImg;
   bool franchise;
   String summary;
@@ -222,7 +222,7 @@ class Book {
       @required this.authorImg,
       @required this.franchise,
       @required this.genre,
-      @required this.lanugage,
+      @required this.language,
       @required this.summary,
       @required this.wideImage,
       @required this.rating,
